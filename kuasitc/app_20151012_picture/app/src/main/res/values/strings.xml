@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">app_20151012_picture</string>
+    <string name="h">身高</string>
+    <string name="w">體重</string>
+    <string name="button">確定</string>
+    <string name="textview">確定</string>
+</resources>
