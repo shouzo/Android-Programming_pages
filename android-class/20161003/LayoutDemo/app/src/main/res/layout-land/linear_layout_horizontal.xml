@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="109dp"
+            android:layout_height="353dp"
+            android:text="Horizontal Linear Layout"
+            android:id="@+id/textView"
+            android:textSize="@dimen/font_size"
+            android:gravity="center" />
+
+        <Button
+            android:layout_width="121dp"
+            android:layout_height="231dp"
+            android:text="Button 2"
+            android:id="@+id/button2" />
+
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="336dp"
+            android:text="Button 1"
+            android:singleLine="true" />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:layout_width="@dimen/image_button_width"
+        android:layout_height="@dimen/image_button_height"
+        android:id="@+id/btn_img_3"
+        android:layout_weight="0.1"
+        android:src="@drawable/omomys"
+        android:scaleType="centerInside"
+        android:baselineAlignBottom="false"
+        android:focusableInTouchMode="false"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onSwitchLayout" />
+
+</LinearLayout>
