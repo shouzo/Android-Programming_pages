@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BMI</string>
+    <string name="message_in_dialog_alert">請以公斤為單位輸入您的體重並以公尺為單位輸入您的身高，然後點按\"計算 BMI\"按鈕。</string>
+    <string name="negative_button_title">不</string>
+    <string name="neutural_button_title">取消</string>
+    <string name="positive_button_title">好</string>
+</resources>

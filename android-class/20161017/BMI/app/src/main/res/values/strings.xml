@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BMI</string>
+    <string name="message_in_dialog_alert">Pleas type in your weight (in KGs) and your height (in metters), and then push the \"Calculate BMI\" button.</string>
+    <string name="positive_button_title">OK</string>
+    <string name="negative_button_title">NO</string>
+    <string name="neutural_button_title">Cancel</string>
+</resources>
